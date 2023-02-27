@@ -1,4 +1,4 @@
-import { Header, Footer } from "../../components";
+import { Footer } from "../../components";
 function DefaultLayout({ children }) {
   return (
     <>

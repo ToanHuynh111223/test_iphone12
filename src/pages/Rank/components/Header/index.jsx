@@ -2,7 +2,7 @@ import clsx from "clsx";
 import styles from "./Header.module.scss";
 import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import { backgroundCoupon } from "../../assets";
+import { backgroundCoupon } from "../../../../assets";
 import { Link } from "react-router-dom";
 function Header() {
   return (

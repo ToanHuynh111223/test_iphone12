@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Hellix";
+  src: local("Hellix Regular"), local("Hellix-Regular"),
+    url("../../fonts/Hellix-Regular.ttf") format("woff2"),
+    url("../../fonts/Hellix-Regular.woff") format("woff"),
+    url("../../fonts/Hellix-Regular.woff2") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Hellix", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}

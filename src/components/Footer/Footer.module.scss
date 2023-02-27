@@ -1,0 +1,25 @@
+.footerMobile {
+  display: none;
+}
+@media only screen and (max-width: 390px) {
+  .footerMobile {
+    display: block;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+    height: 96px;
+    border-top: 2px solid #e2e2ea;
+    background-color: #fff;
+  }
+  .navbar {
+    display: flex;
+    margin: 24px 30px 40px;
+    list-style: none;
+    justify-content: space-around;
+  }
+  .icon {
+    color: #d5d5dc;
+  }
+}

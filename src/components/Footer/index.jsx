@@ -37,7 +37,7 @@ function Footer() {
           <li>
             <Link to="" style={{ textDecoration: "none" }}>
               <PersonOutlineOutlinedIcon
-                sx={{ fontSize: 40 }}
+                sx={{ fontSize: 36 }}
                 className={clsx(styles.icon)}
               />
             </Link>
